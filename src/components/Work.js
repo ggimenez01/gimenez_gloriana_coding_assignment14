@@ -4,35 +4,33 @@ import './Work.css'; // Import the CSS file for additional styling
 function Work() {
   return (
     <div className="work-container">
-      <h2>Work Experience:</h2>
-      <img src={process.env.PUBLIC_URL + '/trend.png'} alt="Trend Technologies Singapore Logo" />
-      <h3>Company Name: TREND TECHNOLOGIES SINGAPORE PTE. LTD.</h3>
-      <h3>Position: IT SPECIALIST</h3>
-      <p>JANUARY 2019 – MAY 2022</p>
-      <p>FEBRUARY 2013 – SEPTEMBER 2014</p>
-      <ul>
-        <li>
-          Administered company network infrastructure, including active directory management, file server maintenance, firewall configuration, endpoint protection deployment, and email security protocols that minimize potential damage to organization’s systems and data and resulting in more stable uptime network.
-        </li>
-        <li>
-          Provided expert configuration, installation, deployment, and support of systems, including users’ computing devices resulting in fewer support requests and smooth operations during the transition.
-        </li>
-        <li>
-          Reviewed monthly end-point protection console reports, identifying, and mitigating reported vulnerabilities, and participated in regional cybersecurity strategies that proactively identified and addressed vulnerabilities before they could be exploited.
-        </li>
-        <li>
-          Provided expert guidance to Asia’s Management Information Systems (MIS) teams, ensuring effective and efficient use of technology to support business operations and drive improvements in user support.
-        </li>
-        <li>
-          Facilitated computing hardware and software purchases and liaised with vendors to ensure timely and cost-effective procurement of technology resources and ensure technology needs were met in alignment with goals and budget.
-        </li>
-        <li>
-          Administered Office 365 Email Management using Azure; created, modified, and deleted user’s email addresses; managed rules for email protection to protect against malicious emails and other threats.
-        </li>
-        <li>
-          Diagnosed, troubleshot, and resolved hardware and technical support issues, hardware malfunctions, software conflicts, and network connectivity problems to minimize work disruption and downtime.
-        </li>
-      </ul>
+      <h1>Work</h1>
+      <div className="work-experience">
+        <h3 className="work-title">Title: Food Blogging Site</h3>
+        <p className="work-description">
+          Description: Build a Content Management System (CMS) using PHP, HTML, CSS, and JavaScript. Created a website using Create, Read, Update, and Delete (CRUD) using MyPHP Admin; implemented validation rules by sanitizing and validating all retrieved IDs from GET or POST parameters used in SQL queries; added image Uploads and Image Processing by way of form upload with automatic resizing.
+        </p>
+        <img src={process.env.PUBLIC_URL + '/foodyref.png'} alt="Food Blogging Site" className="work-image" />
+        <p className="work-link">
+          Link: <a href="https://github.com/ggimenez01/recipes_website.git">https://github.com/ggimenez01/recipes_website.git</a>
+        </p>
+        <p className="work-tech-list">
+          Tech List: PHP, HTML, CSS, JavaScript
+        </p>
+      </div>
+      <div className="work-experience">
+        <h3 className="work-title">Title: Website Development</h3>
+        <p className="work-description">
+          Description: To build a website for a small pharmacy store that contains products, contact page, about us, and pharmaceutical contents.
+        </p>
+        <img src={process.env.PUBLIC_URL + '/psalms.png'} alt="Website Development" className="work-image" />
+        <p className="work-link">
+          Link: (link not available because the free site hosting terminated)
+        </p>
+        <p className="work-tech-list">
+          Tech List:  HTML, CSS, JavaScript
+        </p>
+      </div>
     </div>
   );
 }
