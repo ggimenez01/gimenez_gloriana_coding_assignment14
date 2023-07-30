@@ -5,7 +5,7 @@ import Work from './components/Work';
 import Skills from './components/Skills';
 import DeveloperSetup from './components/DeveloperSetup';
 import SupportingResources from './components/SupportingResources';
-import Education from './components/Education';
+
 import './App.css'; // Import the CSS file for additional styling
 
 function App() {
@@ -18,9 +18,7 @@ function App() {
             <li className="navbar-item">
               <Link to="/" className="navbar-link">Basic Info</Link>
             </li>
-            <li className="navbar-item">
-              <Link to="/education" className="navbar-link">Education</Link>
-            </li>
+           
             <li className="navbar-item">
               <Link to="/work" className="navbar-link">Work</Link>
             </li>
@@ -41,7 +39,7 @@ function App() {
         {/* Routes */}
         <Routes>
           <Route exact path="/" element={<BasicInfo />} />
-          <Route path="/education" element={<Education />} />
+     
           <Route path="/work" element={<Work />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/developer-setup" element={<DeveloperSetup />} />
