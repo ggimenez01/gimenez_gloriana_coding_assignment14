@@ -4,51 +4,35 @@ import './BasicInfo.css'; // Import the CSS file for additional styling
 function BasicInfo() {
   return (
     <div className="basic-info-container">
+      <h2>Basic Information / Introduction</h2>
+      
       <div className="profile-section">
-        <img
-          src={process.env.PUBLIC_URL + '/woman.jpg'}
-          alt="woman"
-          className="profile-picture"
-        />
-        <div className="profile-details">
-          <h1>GLORIANA FELICIANO GIMENEZ</h1>
-          <p className="contact-info">
-            Winnipeg, Manitoba · (204) 229-4517 · gloriana0115@gmail.com
-          </p>
-          <p className="profile-links">
-            <a href="https://www.linkedin.com/in/glorianagimenez/" target="_blank" rel="noopener noreferrer">
-              LinkedIn Profile
-            </a>
-            &nbsp;·&nbsp;
-            <a href="https://github.com/ggimenez01/" target="_blank" rel="noopener noreferrer">
-              GitHub
-            </a>
-          </p>
-        </div>
-      </div>
-      <div className="profile-summary">
-        <h2>PROFILE</h2>
+        <h3>Content Management System, Red River College Polytechnic, Winnipeg, Manitoba</h3>
+        <p>April 2023</p>
         <ul>
           <li>
-            Dedicated and enthusiastic Full Stack Web Development student in the final year of a 2-year program, developing skills and expertise in designing, implementing, maintaining, and optimizing websites and web plugins.
+            <strong>Challenge:</strong> Build a Content Management System (CMS) using PHP, HTML, CSS, and JavaScript.
           </li>
           <li>
-            Brainstormed new features to enhance user experiences and productivity by breaking down complex problems into manageable tasks and components.
+            <strong>Actions:</strong> Created a website using Create, Read, Update, and Delete (CRUD) using MyPHP Admin; implemented validation rules by sanitizing and validating all retrieved IDs from GET or POST parameters used in SQL queries; added image Uploads and Image Processing by way of form upload with automatic resizing.
           </li>
           <li>
-            Ensured project completion through testing and debugging of code; applied the latest web development technologies and methodologies to improve skills and knowledge.
+            <strong>Result:</strong> Created a food blogging site that received the highest grade from the instructor.
+          </li>
+        </ul>
+      </div>
+      <div className="profile-section">
+        <h3>Website Development & Deployment, Red River College Polytechnic, Winnipeg, Manitoba</h3>
+        <p>December 2022</p>
+        <ul>
+          <li>
+            <strong>Challenge:</strong> Create and deploy a website using HTML5, CSS, and JavaScript.
           </li>
           <li>
-            Applied knowledge of HTML, CSS, SQL, PHP, JavaScript, and JavaScript libraries (JSON, AJAX) to design and develop a dynamic food blogging website allowing users to post, edit, and delete comments on recipes; implemented additional functionality to browse a comprehensive list of restaurant and grocery stores for ingredient purchases.
+            <strong>Actions:</strong> Created a webpage containing three HTML5 validated pages; included products and services, contact page, and pharmaceutical content; uploaded the site to the World Wide Web.
           </li>
           <li>
-            Collaborated with diverse team members on different group assignments, e.g., User Input Validation (PHP), Blogging Site, and AJAX search form for JSON dataset queries.
-          </li>
-          <li>
-            Prioritized tasks and managed time by completing assignments and projects before due dates, resulting in organized workflows and consistent high-quality work.
-          </li>
-          <li>
-            Implemented basic Git version control concepts on personal and academic projects, including food blogging websites, to store and back up code; used Git commands and tools to track changes, revert to previous versions, and manage project history.
+            <strong>Result:</strong> The website was evaluated and graded by the instructor, and the feedback was 'excellent.'
           </li>
         </ul>
       </div>
