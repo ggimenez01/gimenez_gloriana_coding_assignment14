@@ -1,0 +1,36 @@
+.developer-setup-container {
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  border: 1px solid #ccc; /* Add a border */
+  padding: 20px; /* Add padding */
+}
+
+.developer-setup-container h1 {
+  margin-bottom: 20px;
+}
+
+.developer-setup-container h2 {
+  margin-bottom: 10px;
+}
+
+.developer-setup-container p {
+  margin-bottom: 10px;
+}
+
+.developer-setup-container ul {
+  margin-bottom: 20px;
+}
+
+.developer-setup-container ol {
+  margin-bottom: 20px;
+}
+
+.developer-setup-container li {
+  margin-bottom: 10px;
+}
+
+.developer-setup-container code {
+  font-family: Consolas, 'Courier New', monospace;
+  background-color: #f4f4f4;
+  padding: 2px 4px;
+}

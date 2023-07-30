@@ -1,0 +1,22 @@
+.skills-container {
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  border: 1px solid #ccc; /* Add a border */
+  padding: 20px; /* Add padding */
+}
+
+.skills-container h2 {
+  margin-bottom: 20px;
+}
+
+.skills-container p {
+  margin-bottom: 10px;
+}
+
+.skills-container ul {
+  margin-bottom: 20px;
+}
+
+.skills-container ul li {
+  margin-bottom: 10px;
+}

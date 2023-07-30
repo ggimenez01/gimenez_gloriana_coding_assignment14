@@ -1,0 +1,38 @@
+/* SupportingResources.css */
+
+/* Container for the whole supporting resources section */
+.supporting-resources-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .supporting-resources-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .supporting-resources-container div {
+    margin-bottom: 30px;
+  }
+  
+  .supporting-resources-container h4 {
+    margin-bottom: 10px;
+  }
+  
+  .supporting-resources-container img {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    border-radius: 8px;
+  }
+  
+  .supporting-resources-container p {
+    margin-bottom: 10px;
+  }
+  
+  .supporting-resources-container a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
